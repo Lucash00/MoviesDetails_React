@@ -5,7 +5,7 @@ import { getAuth } from 'firebase/auth';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBhpKUAYDFpI-7F_0N3RMFJGMD_yX1n7OM",
+  apiKey: "",
   authDomain: "moviedetailsfb.firebaseapp.com",
   projectId: "moviedetailsfb",
   storageBucket: "moviedetailsfb.appspot.com",
