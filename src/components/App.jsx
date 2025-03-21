@@ -8,9 +8,7 @@ import { NavbarHeader, NavbarLabel, NavbarLink, GlobalStyles, NavbarLogo } from 
 import { Generos } from 'components/Generos/Generos';
 import { ActorList } from 'components/Actor/ActorList';
 import { ActorDetail } from 'components/Actor/ActorDetail';
-import { User, UserRoutes, UserProvider } from 'components/Usuarios/User';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { UserProvider } from 'components/Usuarios/User';
 import logoMenu from 'components/Img/LogoMenu.png'; // Importa la imagen del logo
 import Footer from 'components/Footer/Footer'; // Importa el componente Footer
 

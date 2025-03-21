@@ -1,5 +1,5 @@
 // SearchBar.jsx
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import { SearchBarContainer, SearchIcon, SearchInput } from './SearchBar.styled';
 

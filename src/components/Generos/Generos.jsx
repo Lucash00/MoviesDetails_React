@@ -5,7 +5,6 @@ import { useSearchParams } from 'react-router-dom';
 import { fetchSearchByGenre, fetchGenres, fetchMoviesByTitle } from 'services/api';
 import MovieItem from '../MovieItem/MovieItem';
 import { HomeContainer, SectionContainer, Carousel, Title } from '../Home/Home.styled';
-import { FaSearch } from 'react-icons/fa';
 import SearchBar from '../SearchBar/SearchBar'; // Importa el nuevo componente
 
 export const Generos = () => {

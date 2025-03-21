@@ -1,6 +1,6 @@
 import { useState, useEffect, Suspense } from 'react';
 import { fetchGetMovieDetails, fetchMovieTrailer } from 'services/api';
-import { useParams, useLocation, Link, Outlet } from 'react-router-dom';
+import { useParams, useLocation, Outlet } from 'react-router-dom';
 import { MovieDetailsLeft, MovieDetailsRight, MovieDetailsContainer, MovieDetailsFooter, BackLink, StyledLink } from './MovieDetails.styled';
 
 
