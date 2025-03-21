@@ -40,17 +40,6 @@ export const Generos = () => {
     window.addEventListener('touchend', handleDragEnd);
   };
 
-  const handleSubmit = (evt) => {
-    evt.preventDefault();
-    const query = evt.target.elements.search.value.trim();
-    const normalizedQuery = removeAccents(query.toLowerCase());
-
-    // Modifica para buscar películas por título en lugar de género
-    fetchMoviesByTitle(normalizedQuery).then(setSearchMovies);
-
-    setSearchParams({ query: normalizedQuery });
-    evt.target.reset();
-  };
 
   const removeAccents = (text) => {
     return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -110,7 +99,7 @@ export const Generos = () => {
       <SearchBar
         value={searchQuery}
         onChange={setSearchQuery}
-        placeholder="Buscar películas por género"
+        placeholder="Buscar géneros de peliculas"
         onSearch={handleSearch}
       />
 
