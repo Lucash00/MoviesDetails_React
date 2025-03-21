@@ -12,13 +12,10 @@ import { User, UserRoutes, UserProvider } from 'components/Usuarios/User';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import logoMenu from 'components/Img/LogoMenu.png'; // Importa la imagen del logo
-import firebaseInstance from './firebase';
 import Footer from 'components/Footer/Footer'; // Importa el componente Footer
 
 const App = () => {
   // Usa la instancia de Firebase de firebaseInstance.app
-  const firebaseApp = firebaseInstance.app;
-
   return (
     <Router>
       <GlobalStyles />
